@@ -10,7 +10,10 @@ async function bootstrap() {
 
   // Kích hoạt CORS cho phép frontend gọi API (chỉ định origin cụ thể)
   app.enableCors({
-    origin: ['http://localhost:3000', 'ia06-user-registration-api.vercel.app'], // cho phép local host frontend (sẽ chỉnh domain khi deploy)
+    origin: [
+      'http://localhost:3000',
+      'https://ia06-user-registration-api.vercel.app/',
+    ], // cho phép local host frontend (sẽ chỉnh domain khi deploy)
   });
 
   await app.listen(process.env.PORT || 5000);

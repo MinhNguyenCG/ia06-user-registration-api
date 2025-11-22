@@ -41,9 +41,13 @@ export default function LoginPage() {
     setTimeout(() => {
       setIsLoading(false);
       setLoginSuccess(true);
+
+      // Store user info in localStorage
+      localStorage.setItem("userEmail", data.email);
+
       // Redirect to home page after successful login
       setTimeout(() => {
-        router.push("/");
+        router.push("/home");
       }, 1500); // Show success message for 1.5s then redirect
     }, 1500);
   };

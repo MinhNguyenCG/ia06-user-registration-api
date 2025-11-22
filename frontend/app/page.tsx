@@ -10,7 +10,7 @@ export default function HomePage() {
       <section className="space-y-6 max-w-3xl">
         <div className="space-y-2">
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl bg-clip-text text-transparent bg-linear-to-r from-indigo-600 to-cyan-600">
-            IA06 - User Registration API
+            User Registration
           </h1>
           <p className="text-xl text-slate-600 max-w-2xl mx-auto">
             A complete demonstration of user registration flow with Next.js 14,

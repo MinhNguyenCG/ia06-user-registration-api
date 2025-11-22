@@ -6,7 +6,7 @@ import { Providers } from "./providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "IA06-User Registration API with React Frontend",
+  title: "User Registration",
   description:
     "Modern user registration demo using Next.js, Tailwind, and React Query",
 };

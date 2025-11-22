@@ -12,7 +12,7 @@ async function bootstrap() {
   app.enableCors({
     origin: [
       'http://localhost:3000',
-      'https://ia06-user-registration-api.vercel.app/',
+      'https://ia06-user-registration-api.vercel.app',
     ], // cho phép local host frontend (sẽ chỉnh domain khi deploy)
   });
 
